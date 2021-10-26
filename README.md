@@ -3,13 +3,13 @@ In this notebook[imdb_wiki_gpu.ipynb], we shall build an advanced convolutional 
 
 # Dataset
 Images are of varying dimension with 3 channels[RGB]: \
-![alt text](https://github.com/kwquan/IMDB-wiki/blob/main/imdb_sample.jpg)
+![alt text](https://github.com/kwquan/IMDB-Wiki/blob/main/imdb_sample.jpg)
 
 # Data Pre-processing
 Before proceeding to modeling part, we have to first clean up our data & put it into their respective folders. \
 We can do this by first downloading the data from the above link, then running imdb_wiki_preparation.py. \
 Process is as follows: \
-![alt text](https://github.com/kwquan/IMDB-wiki/blob/main/process.png)
+![alt text](https://github.com/kwquan/IMDB-Wiki/blob/main/process.png)
 
 My code is mostly based on this link: [https://medium.com/free-code-camp/how-to-build-an-age-and-gender-multi-task-predictor-with-deep-learning-in-tensorflow-20c28a1bd447](url)
 with some minor changes added. Also, I added explanations for each part in the comments.
